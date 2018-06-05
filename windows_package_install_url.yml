@@ -1,6 +1,6 @@
 ---
 - name: Install/Remove Windows Packages (URL/Local)
-  hosts: {{ host_name }}
+  hosts: '{{ host_name }}'
   vars:
    file_share_path:  
    win_product_id: 
