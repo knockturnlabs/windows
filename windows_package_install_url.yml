@@ -1,0 +1,14 @@
+---
+- name: Install/Remove Windows Packages (URL/Local)
+  hosts: {{ host_name }}
+  vars:
+   file_share_path:  
+   win_product_id: 
+   product_state: 
+
+  tasks:
+  - name: Configure Package
+    win_package:
+      path: '{{ file_share_path|default(omit) }}'
+      product_id: '{{ win_product_id|default(omit) }}'
+      state: '{{ product_state }}'
