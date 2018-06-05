@@ -2,9 +2,9 @@
 - name: Install/Remove Windows Packages (URL/Local)
   hosts: '{{ host_name }}'
   vars:
-   file_share_path:  
-   win_product_id: 
-   product_state: 
+#   file_share_path:  
+#   win_product_id: 
+#   product_state: 
 
   tasks:
   - name: Configure Package

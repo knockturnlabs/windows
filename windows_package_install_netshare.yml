@@ -2,11 +2,11 @@
 - name: Install/Remove Windows Packages (Network Share)
   hosts: '{{ host_name }}'
   vars:
-   file_share_path: 
-   win_product_id: 
-   product_state: 
-   win_user_name:
-   win_user_pass:
+#   file_share_path: 
+#   win_product_id: 
+#   product_state: 
+#   win_user_name:
+#   win_user_pass:
 
   tasks:
   - name: Configure Package
